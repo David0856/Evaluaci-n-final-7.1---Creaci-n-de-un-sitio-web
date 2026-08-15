@@ -1,0 +1,15 @@
+
+:root{--red:#7a1f16;--gold:#d49a2a;--cream:#fff8e8;--dark:#241512;--green:#1f6b45}
+body{font-family:Arial,sans-serif;color:var(--dark);background:#fffdf8}
+.navbar{background:var(--red)!important}.navbar-brand,.nav-link{color:#fff!important}.nav-link:hover{color:#ffd98a!important}
+.hero{background:#fff3d8}.hero img{width:100%;border-radius:22px;box-shadow:0 12px 35px #0002}
+.section-title{font-family:Georgia,serif;color:var(--red);font-weight:700}
+.card{border:0;border-radius:18px;box-shadow:0 8px 24px #00000012;overflow:hidden;transition:.25s}.card:hover{transform:translateY(-6px);box-shadow:0 14px 30px #0002}
+.btn-patria{background:var(--gold);color:#241512;border:0;font-weight:700}.btn-patria:hover{background:#bd7f12;color:#fff}
+.badge-patria{background:var(--green)}
+footer{background:#241512;color:#fff;padding:34px 0;margin-top:60px}
+.footer-line{border-top:1px solid #ffffff22;padding-top:20px;margin-top:20px}
+.page-banner{background:linear-gradient(135deg,var(--red),#a74a25);color:#fff;padding:65px 0}
+.menu-img{height:220px;object-fit:cover}.carousel-item img{height:430px;object-fit:cover}
+.small-note{font-size:.9rem;color:#666}
+@media(max-width:576px){.carousel-item img{height:260px}.page-banner{padding:45px 0}}
